@@ -1,0 +1,114 @@
+hr {
+    width:30%;
+    border-width:20px;
+    border-style:dotted none none;
+    border-color:#f88f01;
+}
+
+body {
+    text-align: center;
+    background-color:ghostwhite;
+}
+
+p {
+    color: #6a492b;
+}
+
+div {
+    
+}
+
+thead {
+
+    color:#58391c;
+}
+
+table {
+    color:#f88f01;
+}
+
+img:hover {
+    background-color: orange;
+}
+
+.avatar {
+    position: relative;
+    padding: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.full {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 30%;
+    padding: 4%;
+}
+
+.bestself {
+    background-color: gold;
+    
+}
+
+.worstself {
+    background-color: gray;
+}
+
+.intro {
+    margin: auto 50px auto 50px;
+    
+}
+
+.head {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
+.torso {
+    
+}
+
+#mainheading {
+    font-size: x-large;
+    color:#f88f01;
+}
+
+#besthead {
+    position: absolute;
+    top: 0%;
+    left: 36%;
+}
+
+#worsthead {
+    position: absolute;
+    top: 0%;
+    left: 36%;
+}
+
+#besttorso {
+    position: absolute;
+    top: 34%;
+    left: 45.6%;
+}
+#worsttorso {
+    position: absolute;
+    top: 34%;
+    left: 45.6%;
+}
+
+#bestlimbs {
+    position: absolute;
+    top: 34%;
+    left: 42%;
+    
+}
+#worstlimbs {
+    position: absolute;
+    top: 34%;
+    left: 42%;
+}
