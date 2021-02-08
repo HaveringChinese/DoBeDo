@@ -1,0 +1,23 @@
+{
+  "name": "dobedo",
+  "version": "1.0.0",
+  "description": "packages for dobedo",
+  "main": "dbd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaveringChinese/DoBeDo.git"
+  },
+  "author": "Nate Conrad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaveringChinese/DoBeDo/issues"
+  },
+  "homepage": "https://github.com/HaveringChinese/DoBeDo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

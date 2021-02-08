@@ -14,9 +14,6 @@ p {
     color: #6a492b;
 }
 
-div {
-    
-}
 
 thead {
 
@@ -30,6 +27,13 @@ table {
 img:hover {
     background-color: orange;
 }
+
+main {
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 
 .avatar {
     position: relative;
@@ -69,10 +73,6 @@ img:hover {
     margin-bottom: 10%;
     }
 
-.torso {
-    
-}
-
 #mainheading {
     font-size: x-large;
     color:#f88f01;
@@ -111,4 +111,15 @@ img:hover {
     position: absolute;
     top: 34%;
     left: 42%;
+}
+
+
+.box1 {
+    background-color: orange;
+    grid-column: 1/2;
+}
+
+.box2 {
+    background-color: grey;
+    grid-column: 2/3;
 }
