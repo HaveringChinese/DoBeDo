@@ -1,7 +1,7 @@
 {
   "name": "dobedo",
   "version": "1.0.0",
-  "description": "packages for dobedo",
+  "description": "DoBeDo is a pet project of mine to create an all-in-one personal development tracker with built-in incentives for nurturing positive habits and routines to achieve longterm goals.",
   "main": "dbd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/HaveringChinese/DoBeDo.git"
   },
-  "author": "Nate Conrad",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HaveringChinese/DoBeDo/issues"
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/HaveringChinese/DoBeDo#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   }
 }
