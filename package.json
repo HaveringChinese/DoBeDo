@@ -2,7 +2,7 @@
   "name": "dobedo",
   "version": "1.0.0",
   "description": "DoBeDo is a pet project of mine to create an all-in-one personal development tracker with built-in incentives for nurturing positive habits and routines to achieve longterm goals.",
-  "main": "dbd.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
