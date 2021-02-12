@@ -107,6 +107,35 @@ main {
     left: 42%;
     
 }
+
+#starDate {
+    display: inline-block; 
+    font-size: 2rem;
+    position: absolute; 
+    left: 10%;
+    top: 15%;
+}
+
+.bsDetails {
+    position: absolute; 
+    display: inline-block; 
+    left: 10%;
+    top: 20%;
+}
+
+.bsTasks {
+    position: absolute;
+    display: inline-block; 
+    left: 20%;
+    top: 30%;
+}
+
+.todoList {
+    padding: 2%;
+    margin: 2%;
+    list-style-type:upper-roman;
+}
+
 #worstlimbs {
     position: absolute;
     top: 34%;

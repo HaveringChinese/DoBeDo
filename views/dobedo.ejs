@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>DoBeDo</title>
-        <link rel="stylesheet" href="public/css/dbd.css">
+        <link rel="stylesheet" href="css/dbd.css">
     </head>
     <header id="mainheading">
         <h1>DoBeDo</h1>
@@ -19,7 +19,7 @@
             </div>
             
             <br><br>
-            <img class="bestself full" src="public/images/full body.png"> <img class="worstself full" src="public/images/full body.png">
+            <img class="bestself full" src="img/full body.png"> <img class="worstself full" src="img/full body.png">
             <br><hr><br>
             <p>Your Best Self is who you would be if you did everything you know you should do. 
             It's not tied to an outcome you can't control like becoming a celebrity, genius inventor, or billionaire. 
@@ -36,13 +36,29 @@
         
         <div class="avatar bestself">
             
-            <img id="bestlimbs" class="limbs" src="public/images/limbs.png">
+            <img id="bestlimbs" class="limbs" src="img/limbs.png">
             
-            <img id="besthead" class="head" src="public/images/head.png" alt="all your mind-related best-self goals">
+            <img id="besthead" class="head" src="img/head.png" alt="all your mind-related best-self goals">
             
-            <img id="besttorso" class="torso" src="public/images/torso.png">
+            <img id="besttorso" class="torso" src="img/torso.png">
             
+            <h2 id="starDate">Today is <%=fullDate%>.</h2>
+
+            <ul class="bsDetails">
+                <% for (var i=0; i<newTasks.length; i++) { %>
+                    <li class="todoList"><%=newTasks[i]%></li>
+                <% } %>
+            </ul>
+
+            <form class="bsTasks" action="/" method="POST" name="form">
+                <input type="text" name="newTask" placeholder="Add New Task">
+                <button type="submit" name="button">Add</button>
+            </form>
+
+
         </div>
+
+        
         
         
            <p> <br>Second, envision your Worst Self. What would the areas of your life be like and what would you do as your Worst Self each day?
@@ -50,11 +66,11 @@
     
      <div class="avatar worstself">
             
-            <img id="worstlimbs" class="limbs" src="public/images/limbs.png">
+            <img id="worstlimbs" class="limbs" src="img/limbs.png">
             
-            <img id="worsthead" class="head" src="public/images/head.png" alt="all your mind-related worst-self missteps">
+            <img id="worsthead" class="head" src="img/head.png" alt="all your mind-related worst-self missteps">
             
-            <img id="worsttorso" class="torso" src="public/images/torso.png">
+            <img id="worsttorso" class="torso" src="img/torso.png">
         </div>
 
             <table cellspacing=20>
